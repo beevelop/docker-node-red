@@ -5,4 +5,4 @@ RUN npm i -g node-red
 VOLUME /root/.node-red
 EXPOSE 1880
 
-CMD /usr/local/bin/node-red
+CMD /opt/nodejs/bin/node-red
