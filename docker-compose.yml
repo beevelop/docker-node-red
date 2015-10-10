@@ -1,0 +1,27 @@
+# Central Volumes Image
+volumes:
+  image: tianon/true
+  volumes:
+    # YouTransfer
+    - "./node-red/:/root/.node-red"
+
+# Central NGINX-Proxy
+proxy:
+  image: jwilder/nginx-proxy
+  ports:
+    - "80:80"
+  volumes:
+    - "/var/run/docker.sock:/tmp/docker.sock:ro"
+  restart: always
+
+# Node-Red
+nodered:
+  image: beevelop/node-red
+  environment:
+    - VIRTUAL_HOST=nodered.example.com
+    - VIRTUAL_PORT=1880
+  expose:
+    - "1880"
+  volumes_from:
+    - "volumes"
+  restart: always
