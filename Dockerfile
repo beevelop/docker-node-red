@@ -1,4 +1,4 @@
-FROM beevelop/nodejs-python
+FROM beevelop/nodejs-python:argon
 MAINTAINER Maik Hummel <m@ikhummel.com>
  
 RUN npm i -g node-red
