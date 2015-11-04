@@ -3,7 +3,7 @@ MAINTAINER Maik Hummel <m@ikhummel.com>
 
 ENV NODERED_VERSION 0.11.2
  
-RUN npm i -g node-red@${NODERED_VERSION}
+RUN npm i --unsafe-perm -g node-red@${NODERED_VERSION}
 VOLUME /root/.node-red
 EXPOSE 1880
 
