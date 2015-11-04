@@ -1,4 +1,4 @@
-FROM beevelop/nodejs-python:argon
+FROM beevelop/nodejs-python:0.12
 MAINTAINER Maik Hummel <m@ikhummel.com>
 
 ENV NODERED_VERSION 0.11.2
