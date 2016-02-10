@@ -3,7 +3,7 @@
 [![ImageLayer](https://badge.imagelayers.io/beevelop/node-red:latest.svg)](https://imagelayers.io/?images=beevelop/node-red:latest)
 [![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
 
-# [Node-RED](http://nodered.org/) based on [beevelop/nodejs-python](https://github.com/beevelop/docker-nodejs-python)
+# [Node-RED](http://nodered.org/) for Docker :whale:
 
 ## Docker-Compose (kinda recommended)
 1. Clone this repository
