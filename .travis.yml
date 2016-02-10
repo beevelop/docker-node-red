@@ -1,0 +1,11 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+  - docker build -t nr .
+  - docker run -d --name nr nr
+  - sleep 5
+  - docker logs nr
+  - docker exec nr "apt-get -qq update && apt-get -qq install -y curl && curl -f localhost:1880"
