@@ -1,6 +1,8 @@
-[![Travis](https://img.shields.io/travis/beevelop/docker-node-red.svg?style=flat-square)](https://travis-ci.org/beevelop/docker-node-red)
-[![Docker Pulls](https://img.shields.io/docker/pulls/beevelop/node-red.svg?style=flat-square)](https://links.beevelop.com/d-node-red)
-[![ImageLayer](https://badge.imagelayers.io/beevelop/node-red:latest.svg)](https://imagelayers.io/?images=beevelop/node-red:latest)
+[![Travis](https://shields.beevelop.com/travis/beevelop/docker-node-red.svg?style=flat-square)](https://travis-ci.org/beevelop/docker-node-red)
+[![Docker Pulls](https://shields.beevelop.com/docker/pulls/beevelop/node-red.svg?style=flat-square)](https://links.beevelop.com/d-node-red)
+[![ImageLayers Size](https://shields.beevelop.com/imagelayers/image-size/beevelop/node-red/latest.svg?style=flat-square)](https://imagelayers.io/?images=beevelop/node-red:latest)
+[![ImageLayers Layers](https://shields.beevelop.com/imagelayers/layers/beevelop/node-red/latest.svg?style=flat-square)](https://imagelayers.io/?images=beevelop/node-red:latest)
+![Badges](https://shields.beevelop.com/badge/badges-6-brightgreen.svg?style=flat-square)
 [![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
 
 # [Node-RED](http://nodered.org/) for Docker :whale:
