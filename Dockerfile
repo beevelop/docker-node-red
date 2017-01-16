@@ -8,4 +8,4 @@ RUN npm i --unsafe-perm -g node-red@${NODERED_VERSION}
 VOLUME /root/.node-red
 EXPOSE 1880
 
-CMD /opt/nodejs/bin/node-red
+CMD node-red
