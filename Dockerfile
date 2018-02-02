@@ -2,7 +2,7 @@ FROM beevelop/nodejs-python
 
 MAINTAINER Maik Hummel <m@ikhummel.com>
 
-ENV NODERED_VERSION 0.18.0
+ENV NODERED_VERSION 0.18.1
  
 RUN npm i --unsafe-perm -g node-red@${NODERED_VERSION}
 VOLUME /root/.node-red
