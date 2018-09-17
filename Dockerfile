@@ -1,7 +1,7 @@
 FROM beevelop/nodejs-python
 
-ENV NODERED_VERSION 0.19.3
- 
+ENV NODERED_VERSION 0.19.4
+
 RUN npm i --unsafe-perm -g node-red@${NODERED_VERSION}
 VOLUME /root/.node-red
 EXPOSE 1880
