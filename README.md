@@ -1,3 +1,7 @@
+:warning: **Since the Release of Node-RED v1.x the Docker image changed dramatically and fits all your Docker needs. I strongly recommend using the new official `nodered/node-red` image!**
+
+----
+
 [![Travis](https://shields.beevelop.com/travis/beevelop/docker-node-red.svg?style=flat-square)](https://travis-ci.org/beevelop/docker-node-red)
 [![Docker Pulls](https://shields.beevelop.com/docker/pulls/beevelop/node-red.svg?style=flat-square)](https://links.beevelop.com/d-node-red)
 [![ImageLayers Size](https://shields.beevelop.com/docker/image/size/beevelop/node-red/latest.svg?style=flat-square)](https://imagelayers.io/?images=beevelop/node-red:latest)
